@@ -1,9 +1,7 @@
-# Ignore the Python virtual environment
-.venv/
-__pycache__/
-*.pyc
-
-# Ignore all Excel and data spreadsheets
+# ==========================================
+# PROJECT DATA
+# ==========================================
+# Ignore all Excel and genomic data spreadsheets
 *.xlsx
 *.xls
 *.tsv
@@ -12,3 +10,18 @@ data_sources_original/
 
 # Ignore Windows system files
 desktop.ini
+
+# ==========================================
+# PYTHON & ENVIRONMENT STUFF
+# ==========================================
+# Ignore the Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.pyc
+
+# Visual Studio Code template files
+.vscode/
+tempCodeRunnerFile.py
