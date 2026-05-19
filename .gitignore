@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore all Excel and data spreadsheets
+*.xlsx
+*.xls
+*.tsv
+*.csv
+data_sources_original/
+
+# Ignore Windows system files
+desktop.ini
